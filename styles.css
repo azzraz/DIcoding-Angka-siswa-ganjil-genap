@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c5ebc2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    background-color: #a9e4bc; /* Warna latar belakang kotak */
+    border: 10px solid #4d8340; /* Warna border dan ketebalan border */
+    border-radius: 4px; /* Membuat sudut kotak menjadi melengkung */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #54924c; /* Warna teks di dalam kotak */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h2{
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:#57a045;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4d8f3d;
+    color: #f8e9f1;
+    border: #81e274;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: #81c999;
+}
+
+p {
+    margin: 10px 0;
+    color: #4d8f3d;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#fetchNilai, #fetchGrade, #fetchJenis{
+    margin: 10px;
+    font-weight: bold;
+    color: #4d8f3d;
+}
